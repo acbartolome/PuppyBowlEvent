@@ -4,7 +4,7 @@ import React from "react";
 import ReactDOM from 'react-dom/client'
 
 // Import the main App component
-import App from './App'
+import App from './App.jsx'
 
 // Import the CSS file
 import './App.css'

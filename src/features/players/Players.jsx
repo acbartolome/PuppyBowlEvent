@@ -2,7 +2,7 @@
 import React from "react";
 
 // Import the generated hook from our RTK Query API slice
-import { useGetAllPlayersQuery } from './api/puppyBowlApi'
+import { useGetAllPlayersQuery } from '../../api/puppyBowlApi'
 
 // Import the CSS styles for this component
 import './App.css'
