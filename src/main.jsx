@@ -1,9 +1,10 @@
 // Import the React and ReactDOM libraries
 // React is for defining components and ReactDOM is for rendering them in the DOM
-
+import React from "react";
+import ReactDOM from 'react-dom/client'
 
 // Import the main App component
-
+import
 
 // Import the CSS file
 
