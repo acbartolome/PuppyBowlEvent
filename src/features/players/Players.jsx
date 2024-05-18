@@ -13,7 +13,7 @@ const Players = () => {
   // Use the generated hook to fetch data from the API
   // When the component is first rendered, it will start the API fetch
   // It will re-render each time the fetch status changes (e.g., "loading", "data arrived", "error")
-  const { data = {}, error, isLoading } = useFetchPlayersQuery();
+  const { data = {}, error, isLoading } = useGetAllPlayersQuery();
 
   // Show a loading message while data is being fetched
   if (isLoading) {
