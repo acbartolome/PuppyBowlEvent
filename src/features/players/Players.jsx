@@ -5,8 +5,8 @@ import React from "react";
 import { useGetAllPlayersQuery } from '../../api/puppyBowlApi'
 
 // Import the CSS styles for this component
-import './App.css'
-import './index.css'
+// import './index.css'
+// import './App.css'
 
 // Define a new React component
 const Players = () => {
@@ -37,9 +37,9 @@ const Players = () => {
           {/* Display the player's image, with the player's name as alt text */}
           <img src={player.imageUrl} alt={player.name} />
           <div className="player-details">
-            <h2>  {player.name} </h2>
-            <p>  {player.breed} </p>
-            <p> {player.status} </p>
+            <h2>{player.name}</h2>
+            <p>Breed: {player.breed} </p>
+            <p>Status: {player.status} </p>
           </div>
         </div>
       ))}

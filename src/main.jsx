@@ -7,7 +7,6 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 
 // Import the CSS file
-import './App.css'
 import './index.css'
 
 // Import the Redux store
